@@ -10,7 +10,7 @@ frm.addEventListener("submit", (e) => {
     const entrada = preco * 0.50;
     const parcela = (preco * 0.50) / 12; 
 
-    resp1.innerText = `Promoção ${veiculo}`;
+    resp1.innerText = `Promoção: ${veiculo}`;
     resp2.innerText = `Entrada de R$ ${entrada.toFixed(2)}`;
     resp3.innerText = `+12 de R$ ${parcela.toFixed(2)}`;
 
